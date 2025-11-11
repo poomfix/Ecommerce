@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fef3c7 0%, #fcd34d 50%, #fed7aa 100%);
+  min-height: 100vh;
+  color: #92400e;
+}
+
+.beverage-card {
+  transition: all 0.3s ease;
+}
+
+.beverage-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-title {
+  font-weight: 700;
+  color: #92400e;
+}
+
+.card-description {
+  color: #b45309;
+  font-size: 0.875rem;
+}
+
+.card-price {
+  color: #d97706;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+}
