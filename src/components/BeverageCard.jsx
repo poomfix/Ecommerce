@@ -4,8 +4,7 @@ const BeverageCard = (props) => {
   const { image, name, description, price, butthon } = props;
 
   return (
-    <div className="h-full flex items-center justify-center">
-      <div className="beverage-card bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border-3 border-amber-100 w-full flex flex-col hover:scale-105">
+    <div className=" beverage-card max-w-sm w-full mx-auto bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border-3 border-amber-100 flex flex-col hover:scale-105">
         {/* Image Container */}
         <div className="w-full h-56 bg-gradient-to-br from-amber-100 to-orange-100 flex items-center justify-center overflow-hidden flex-shrink-0">
           {image ? (
@@ -37,7 +36,6 @@ const BeverageCard = (props) => {
           </button>
         </div>
       </div>
-    </div>
   )
 };
 
